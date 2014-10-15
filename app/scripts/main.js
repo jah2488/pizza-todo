@@ -8,7 +8,7 @@ $('input[type=submit]').on('click', function (event) {
 
   event.preventDefault(); //Dont let the browser submit the form
 
-  var fieldValues = $('input.field').serializeArray();
+  var allTheFields = $('input.field').serializeArray();
 
   //Turn everything into an array of js objects and not DOM objects
 
